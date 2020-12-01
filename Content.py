@@ -346,7 +346,6 @@ for a in x:
     # print(a)
     print(" ")
 
-
 # def get_url(env, brand, campaign):
 #     query = "select * from campaign_urls where brand = " + brand + "and campaign = " + campaign
 
@@ -561,7 +560,8 @@ for a in x:
 #     print("robots not found : " + "Failed")
 #
 # driver.close()
-# driver.quit()
+driver.quit()
+
 
 def check_exists_by_xpath(xpath):
     try:
