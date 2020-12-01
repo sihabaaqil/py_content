@@ -563,10 +563,6 @@ for a in x:
 # driver.close()
 # driver.quit()
 
-
-#
-#
-
 def check_exists_by_xpath(xpath):
     try:
         webdriver.find_element_by_xpath(xpath)
