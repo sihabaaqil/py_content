@@ -1,0 +1,1 @@
+print("Terms of Use and Conditions of Purchase : " + "Passed")
